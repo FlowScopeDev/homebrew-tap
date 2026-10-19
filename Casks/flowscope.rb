@@ -17,7 +17,7 @@ cask "flowscope" do
   # The app is unsigned, so a hand-installed DMG trips Gatekeeper's "damaged" dialog. Homebrew
   # clears the quarantine attribute from what it downloads, which is why the cask is the
   # recommended install path in the README.
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Flow Scope.app"
 
