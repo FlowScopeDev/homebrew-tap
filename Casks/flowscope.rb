@@ -1,6 +1,6 @@
 cask "flowscope" do
-  version "1.0.0"
-  sha256 "94c6acf9c5eeaa8bbc0a5ccfb7cff0223f5ed2e0b950a9a2f3741454ea9775cd"
+  version "1.1.0"
+  sha256 "d50a5a55ed661c2a701cea5d0e0fe3b74438b0385aad9871699d74bc8dd1f485"
 
   url "https://github.com/FlowScopeDev/flowscope/releases/download/v#{version}/FlowScope-#{version}.dmg"
   name "Flow Scope"
